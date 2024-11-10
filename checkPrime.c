@@ -16,10 +16,10 @@ int main(){
     }
 
     if(factor==1){ //if the factor of the integer is 1/ meaning its a prime.
-        printf("Integer is a prime number!");
+        printf("%d is a prime number!", num);
     }
     else{
-        printf("Integer is not a prime number!");
+        printf("%d is not a prime number!", num);
     }
     return 0;
 }

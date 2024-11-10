@@ -9,7 +9,7 @@ int main(){
     scanf("%d", &num);
 
     int factor=0;  //var factor is for the amount of factors of the integer
-    for(i=1; i<=num/2; i++){  //using a simple calculator to get the factor of a number
+    for(i=1; i<=num/2; i++){  //using a simple calculation to get the factor of a number
         if(num%i==0){  //if the integer divided is equal to = 0 (being its factors) it iterates a value to var factor.
             factor++;
         }
